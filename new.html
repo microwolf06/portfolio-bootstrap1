@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yusuf Bootstrap Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+
+.jumbotron{
+  min-height: 768px;
+}
+
+.name{
+  color:white !important;
+  font-size:100px !important;
+  margin-top:100px;
+}
+
+
+.description {
+  color:white !important;
+  border:none !important;
+  height:468px;
+  font-size:24px !important;
+}
+
+body, html {
+    height: 100%;
+ }
+
+footer {
+  min-height:50px;
+  background-color:brown !important;
+}
+
+.parallax2{
+    background-image: url("pc.jpg");
+    min-height: 768px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1{
+	background-image: url("bw.jpg");
+    min-height: 768px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background-image: url("pc1.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: transparent !important;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    border-bottom:1px solid white;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+a:hover {
+    color: #f4511e !important;
+    background-color: #fff !important;
+    opacity: 0.5;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+    </style>
+  </head>
+  
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <div class="navbar-brand">HOME</div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="about" class="parallax2 container-fluid">
+      <h1 id="box1" class="text-left name">About</h1>
+      <p class="col-sm-5 description">The name is Yusuf and I'm a designer and developer, with extensive practical experience in brand strategy, creative direction and project management; devoted to Functional Programming and Information Architecture. Also a huge fan of semantics and futuristic interfaces.</p>
+    </div>
+
+    <div id="portfolio" class="parallax1 container-fluid">
+      <h1 id="box2" class="text-center name" >Portfolio</h1>
+      <div class="row text-center" style="margin-top:100px">
+        <img src="new1.jpg" class="img-thumbnail" alt="Portfolio # 1" width="304" height="236">
+        <img src="new2.jpg" class="img-thumbnail" alt="Portfolio # 2" width="304" height="236">
+        <img src="new3.jpg" class="img-thumbnail" alt="Portfolio # 3" width="304" height="236">
+      </div>
+        <div class="row text-center" style="margin-top:10px"> 
+        <img src="new4.jpg" class="img-thumbnail" alt="Portfolio # 4" width="304" height="236">
+        <img src="new5.jpg" class="img-thumbnail" alt="Portfolio # 5" width="304" height="236">
+        <img src="new6.jpg" class="img-thumbnail" alt="Portfolio # 6" width="304" height="236">
+      </div>
+      <br>
+  </div>
+  
+    <div id="contact" class="parallax3 container-fluid">
+  <h2 id="box3" class="text-left name">Contact</h2>
+
+  <div class="row">
+    <div class=" col-sm-6">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text"  style="opacity:0.6" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" style="opacity:0.6"  required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" style="opacity:0.6" ></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-block pull-right" type="submit" style="background-color:white">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+  
+    <footer id="footer" class="container-fluid text-center">
+    <a href="https://www.facebook.com/" target="_blank"><i class="col-xs-offset-4 col-xs-1 fa fa-facebook-square" style="font-size:24px;color:white; margin-top:15px"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="col-xs-1 fa fa-linkedin" style="font-size:24px;color:white; margin-top:15px"></i></a>
+    <a href="https://www.plus.google.com/" target="_blank"><i class="col-xs-1 fa fa-google-plus" style="font-size:24px;color:white; margin-top:15px"></i></a>
+    <a href="https://www.twitter.com/" target="_blank"><i class="col-xs-1 fa fa-twitter" style="font-size:24px;color:white; margin-top:15px"></i></a>
+  </footer>
+  <script>
+  
+  </script>
+  </body>
+</html>
